@@ -32,7 +32,7 @@ params = urllib.parse.urlencode(
 )
 url = f"https://store.epicgames.com/graphql?{params}"
 
-driver = webdriver.Chrome(executable_path="E:\Downloads\chromedriver_win32\chromedriver.exe")
+driver = webdriver.Chrome(executable_path="<path-to-chrome-driver.exe>")
 driver.get(url)
 
 a = None
